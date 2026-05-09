@@ -111,12 +111,19 @@ export default function SingleBusiness() {
 
                         <div className="w-10 h-0.5 bg-blue-400 mt-2 mb-3 rounded-full"></div>
 
-                        <p className="text-sm text-gray-200 leading-relaxed opacity-0 group-hover:opacity-100 transition duration-300">
+                        <p className="
+  text-sm text-gray-200 leading-relaxed
+  opacity-100 md:opacity-0 md:group-hover:opacity-100
+  transition duration-300
+">
                           {item.desc}
                         </p>
 
-                        <div className="mt-3 text-sm text-blue-300 opacity-0 group-hover:opacity-100 transition">
-                          Learn more →
+                        <div className="
+  mt-3 text-sm text-blue-300
+  opacity-100 md:opacity-0 md:group-hover:opacity-100
+  transition
+">
                         </div>
                       </div>
                     </div>
