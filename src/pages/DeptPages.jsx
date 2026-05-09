@@ -117,7 +117,14 @@ export default function BusinessSection() {
 
               {/* HIDDEN CONTENT (reveals on hover) */}
               <div className="overflow-hidden">
-                <div className="transform translate-y-10 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-500">
+                <div className="
+  transform
+  translate-y-0 opacity-100
+  md:translate-y-10 md:opacity-0
+  md:group-hover:translate-y-0
+  md:group-hover:opacity-100
+  transition duration-500
+">
 
                   <p className="mt-4 text-sm text-gray-200 leading-relaxed">
                     {item.desc}
